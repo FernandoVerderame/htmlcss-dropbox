@@ -191,6 +191,7 @@ main {
     margin: 0 auto;
     min-height: 350px;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .title-colored {
@@ -203,4 +204,17 @@ main {
     flex-basis: 50%;
     background-color: aqua;
     height: 200px;
+}
+
+/* Sezione domande frequenti */
+.title-questions {
+    background-color: darkmagenta;
+    min-height: 200px
+
+}
+
+.question, li {
+    background-color: grey;
+    height: 120px;
+    list-style-type: none;
 }

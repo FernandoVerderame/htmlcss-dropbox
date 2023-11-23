@@ -84,13 +84,12 @@ header {
 }
 
 /* Main */
-/* Piano business */
 main {
     background-color: green;
 }
 
-#section-1-main {
-    height:100%;
+/* Piano business */
+#plan-sec {
     padding-bottom: 100px;   
 }
 
@@ -104,7 +103,6 @@ main {
 }
 
 .row-plan {
-    display: flex;
     margin: 0 -20px;
     flex-wrap: wrap;
 }
@@ -120,6 +118,27 @@ main {
 }
 
 .card-plan-special {
+    background-color: darkcyan;
     width: 995px;
     min-height: 200px;
 }
+
+/* Sezione Partner */
+#partner-sec {     
+    padding-bottom: 100px;     
+}
+
+.partner {
+    min-height: 500px;
+}
+
+.partner-left {
+    flex-basis: 60%;
+    background-color: cadetblue;
+}
+
+.partner-right {
+    flex-basis: 40%;
+    background-color: chocolate;
+}
+

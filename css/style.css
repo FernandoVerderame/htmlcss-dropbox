@@ -90,16 +90,12 @@ main {
 
 /* Piano business */
 #plan-sec {
-    padding-bottom: 100px;   
+    padding-bottom: 150px;   
 }
 
 .title-checkbox {
     background-color: blueviolet;
     height: 200px;
-}
-
-.plan-business {
-    background-color: brown;
 }
 
 .row-plan {
@@ -125,7 +121,7 @@ main {
 
 /* Sezione Partner */
 #partner-sec {     
-    padding-bottom: 100px;     
+    padding-bottom: 150px;     
 }
 
 .partner {
@@ -142,3 +138,27 @@ main {
     background-color: chocolate;
 }
 
+/* Sezione vantaggi */
+#advantages-sec {
+    padding-bottom: 150px;
+}
+
+.title-advantages {
+    background-color: brown;
+    height: 150px;
+}
+
+.row-adv {
+    margin: 0 -20px;
+    flex-wrap: wrap;
+}
+
+.col-adv {
+    flex-basis: calc(100% / 3);
+    padding: 20px;
+}
+
+.card-adv {
+    background-color: darkslategrey;
+    min-height: 450px;
+}

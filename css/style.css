@@ -164,8 +164,43 @@ main {
 }
 
 /* Sezione clienti */
+#customers-sec {
+    padding-bottom: 150px;
+}
+
 .title-customers {
     background-color: tomato;
     min-height: 220px;
 }
 
+/* Sezione team */
+.team-box-big {
+    background-color: darkgoldenrod;
+    width: calc(100% / 3);
+    height: 634.33px;
+}
+
+.team-box-small {
+    background-color: indigo;
+    width: calc(100% / 2);
+    height: 315.16px;
+}
+
+.business-company {
+    width: 1000px;
+    margin: 0 auto;
+    min-height: 350px;
+    align-items: center;
+}
+
+.title-colored {
+    flex-basis: 50%;
+    background-color: chartreuse;
+    height: 200px;
+}
+
+.try-button {
+    flex-basis: 50%;
+    background-color: aqua;
+    height: 200px;
+}

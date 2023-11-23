@@ -162,3 +162,10 @@ main {
     background-color: darkslategrey;
     min-height: 450px;
 }
+
+/* Sezione clienti */
+.title-customers {
+    background-color: tomato;
+    min-height: 220px;
+}
+

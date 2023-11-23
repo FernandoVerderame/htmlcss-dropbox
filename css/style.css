@@ -29,6 +29,10 @@ body {
     border: 2px dashed black;
 }
 
+li {
+    list-style-type: none;
+}
+
 /* Header */
 header {
     background-color: dodgerblue;
@@ -207,14 +211,35 @@ main {
 }
 
 /* Sezione domande frequenti */
+#question-sec {
+}
+
 .title-questions {
     background-color: darkmagenta;
     min-height: 200px
 
 }
 
-.question, li {
+.question {
     background-color: grey;
     height: 120px;
-    list-style-type: none;
 }
+
+/* Footer */
+footer {
+    background-color: black;
+    height: 600px;
+}
+
+.footer-list {
+    background-color: goldenrod;
+    width: calc(100% / 5);
+    height: 400px;
+}
+
+.language {
+    background-color: darkturquoise;
+    width: 200px;
+    height: 100px;
+}
+

@@ -35,13 +35,16 @@ h2 {
 }
 
 h3 {
-    font-size: 22px;
+    font-size: 26px;
 }
 
 h4 {
-    font-size: 15px;
+    font-size: 22px;
 }
 
+h5 {
+    font-size: 15px;
+}
 /* Utils */
 .container-big {
     max-width: 1200px;
@@ -235,12 +238,17 @@ main {
 
 .partner-left {
     flex-basis: 60%;
-    background-color: cadetblue;
 }
 
 .partner-right {
     flex-basis: 40%;
-    background-color: chocolate;
+    padding: 60px 50px;
+}
+
+.find-partner {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
 
 /* Sezione vantaggi */

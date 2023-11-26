@@ -279,46 +279,93 @@ main {
     padding-bottom: 100px;
 }
 
-.title-customers {
-    min-height: 220px;
-}
-
 #customers-sec a {
     color: #0000EE;
     text-decoration: underline;
 }
 
 /* Sezione team */
+#team-sec {
+    background-color: #B4D0E7;
+}
+
 .team-box-big {
-    background-color: darkgoldenrod;
     width: calc(100% / 3);
     height: 634.33px;
 }
 
 .team-box-small {
-    background-color: indigo;
     width: calc(100% / 2);
     height: 315.16px;
+    display: flex;
+    justify-content: center;
+}
+
+.team-box-big svg {
+    width: 150px;
+    height: auto;
+    fill: white;
+}
+
+.team-box-small.designit {
+    background-color: #A2D39B;
+}
+
+.arizona {
+    background-color: #61082B;
+}
+
+.florida {
+    background-color: #0093CE;
+}
+
+.topps {
+    background-color: #FF1C1C;
+}
+
+.bicycle {
+    background-color: #D5001F;
+}
+
+.hearst {
+    background-color: #B4D0E7;
+}
+
+.planet {
+    background-color: #0D2481;
+}
+
+.channel {
+    background-color: #FFD830;
+}
+
+.team-box-big img {
+    width: 250px;
+    height: auto;
+}
+
+.team-box-big.center {
+    padding: 50px;
+    background-color: #F5F5F5;
 }
 
 .business-company {
     width: 1000px;
     margin: 0 auto;
     min-height: 350px;
-    align-items: center;
     margin-bottom: 100px;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.title-colored {
-    flex-basis: 50%;
-    background-color: chartreuse;
-    height: 200px;
+.business-company h2 {
+    color: #61082B;
 }
 
-.try-button {
-    flex-basis: 50%;
-    background-color: aqua;
-    height: 200px;
+.business-company a {
+    padding: 15px 50px;
+    background-color: white;
+    color: black;
 }
 
 /* Sezione domande frequenti */

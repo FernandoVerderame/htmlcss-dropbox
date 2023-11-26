@@ -369,18 +369,27 @@ main {
 }
 
 /* Sezione domande frequenti */
-#question-sec {
+#questions-sec {
+    margin-bottom: 150px;
 }
 
-.title-questions {
-    background-color: darkmagenta;
-    min-height: 200px
-
+#questions-sec h2 {
+    padding: 60px 0;
+    border-bottom: 1px solid black;
 }
 
-.question {
-    background-color: grey;
-    height: 120px;
+#questions-sec li {
+    font-size: 17px;
+    padding: 35px 0;
+}
+
+.frequent-req {
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+}
+
+.frequent-req .fa-angle-down {
+    margin-right: 30px;
 }
 
 /* Footer */

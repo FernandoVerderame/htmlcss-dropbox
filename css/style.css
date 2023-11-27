@@ -200,6 +200,11 @@ main {
     color: #666666;
 }
 
+.fa-ul > li {
+    position: relative;
+    right: 15px;
+}
+
 .buy-now {
     color: #0000EE;
     text-decoration: underline;

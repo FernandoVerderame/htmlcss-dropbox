@@ -207,7 +207,7 @@ main {
 
 .divider {
     width: 50px;
-    border: 1px solid #D0D0D3;
+    border-bottom: 1px solid #D0D0D3;
 }
 
 .fa-check {
@@ -290,21 +290,26 @@ main {
 }
 
 .team-box-big {
-    width: calc(100% / 3);
-    height: 634.33px;
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+    flex-wrap: wrap;
 }
 
 .team-box-small {
-    width: calc(100% / 2);
-    height: 315.16px;
-    display: flex;
+    width: 50%;
+    height: 50%;
     justify-content: center;
+    align-items: center;
+    border: 15px solid transparent;
 }
 
-.team-box-big svg {
-    width: 150px;
-    height: auto;
-    fill: white;
+.team-box-small img {
+    width: 50%;
+    filter: invert(1);
+}
+
+.team-box-small:hover {
+    border-color: rgba(255, 255, 255, 0.5);
 }
 
 .team-box-small.designit {
@@ -339,14 +344,23 @@ main {
     background-color: #FFD830;
 }
 
-.team-box-big img {
-    width: 250px;
-    height: auto;
-}
-
 .team-box-big.center {
     padding: 50px;
     background-color: #F5F5F5;
+}
+
+.team-box-big.center img {
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+.team-box-big.center .divider{
+    width: 110px;
+    margin-bottom: 40px;
+}
+
+.team-box-big p {
+    margin-bottom: 40px;
 }
 
 .business-company {

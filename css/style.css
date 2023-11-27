@@ -83,8 +83,16 @@ h5 {
     display: inline-block;
 }
 
+.btn:hover {
+    filter: opacity(0.5);
+}
+
 .btn-small {
     padding: 5px 10px;
+}
+
+.btn-small:hover {
+    filter: opacity(0.5);
 }
 
 .btn-primary {

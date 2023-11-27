@@ -205,12 +205,17 @@ main {
 }
 
 .montly {
+    font-size: 15px;
     color: #666666;
+}
+
+.card-content li, .btn, .or-buy-now, p{
+    font-size: 15px;
 }
 
 .fa-ul > li {
     position: relative;
-    right: 15px;
+    right: 18px;
 }
 
 .buy-now {
@@ -405,7 +410,7 @@ main {
     border-bottom: 1px solid black;
 }
 
-#questions-sec li {
+#questions-sec .frequent-req {
     font-size: 17px;
     padding: 35px 0;
 }
@@ -415,8 +420,31 @@ main {
     justify-content: space-between;
 }
 
+.frequent-req p {
+    margin-top: 35px;
+}
+
+.req .secondary,
+.req:hover .primary {
+    display: none;
+}
+
+.req:hover .secondary {
+    display: block;
+}
+
 .frequent-req .fa-angle-down {
-    margin-right: 30px;
+    padding-right: 30px;
+}
+
+.frequent-req.secondary {
+    position: relative;
+}
+
+.fa-angle-up {
+    position: absolute;
+    right: 30px;
+    top: 35px;
 }
 
 /* Footer */
